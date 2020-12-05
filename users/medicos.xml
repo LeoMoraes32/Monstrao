@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<medicos>
+<medico>
+    <crm>3123</crm>
+    <nome>marcelo</nome>
+    <senha>123</senha>
+    <end>Buarque de Mascedo </end>
+    <telefone>5391739258</telefone>
+    <esp>Cardiologia</esp>
+</medico>
+</medicos>

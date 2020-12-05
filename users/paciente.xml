@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<pacientes>
+<paciente>
+    <cpf>0123</cpf>
+    <nome>Ana Paula</nome>
+    <senha>123</senha>
+    <end>Domingo de Almeida</end>
+    <telefone>5381666666</telefone>
+    <email>anapaula@bol.com</email>
+    <genero>F</genero>
+    <idade>67</idade>
+</paciente>
+</pacientes>

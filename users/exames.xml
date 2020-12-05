@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<exames>
+<exame><cpf>111</cpf><cnpj>11</cnpj><data>20/04/2010</data><tipoexame>4</tipoexame><resultado>Positivo</resultado></exame><exame><cpf>111</cpf><cnpj>12</cnpj><data>20/04/2010</data><tipoexame>4</tipoexame><resultado>Negativo</resultado></exame><exame><cpf>111</cpf><cnpj>11</cnpj><data>20/04/2011</data><tipoexame>4</tipoexame><resultado>Positivo</resultado></exame><exame><cpf>0123</cpf><cnpj>41234</cnpj><data>20/04/2010</data><tipoexame>Exame de sangue</tipoexame><resultado>A+</resultado></exame></exames>

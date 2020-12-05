@@ -1,0 +1,28 @@
+		.content-table{ /* Formatação da tabela */
+			border-collapse: collapse;
+			margin: 25px 0;
+			font-size: 0.9em;
+			min-width: 400px;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+			background-color: white;
+			border-top: 2px solid green;
+		}
+		.content-table thead tr{ /*Formatação da thead */
+			
+			background-color: green;
+			color: #ffffff;
+			text-align: left;
+			font-weight: bold;
+		}
+		.content-table th, .content-table td{ /*Espaçamento da tabela*/
+			padding: 12px 15px;
+
+		}
+		.content-table tbody tr{
+			border-bottom: 1px solid #dddddd;
+		}
+		.content-table tbody tr:last-of-type{/* Linha final da tabela */
+
+
+			border-bottom: 2px solid green;
+		}

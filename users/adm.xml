@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<adms>
+        <adm>
+                <usuario>matheus</usuario>
+                <senha>12345</senha>
+        </adm>
+        <adm>
+                <usuario>joao</usuario>
+                <senha>123</senha>
+        </adm>
+        <adm>
+                <usuario>renan</usuario>
+                <senha>senha</senha>
+        </adm>
+        <adm>
+                <usuario>professor</usuario>
+                <senha>professor</senha>
+        </adm>
+</adms>
