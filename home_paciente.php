@@ -27,16 +27,16 @@ foreach($xml->children() as $sk) {
     <link rel="stylesheet" href="assets/css/pacstyles.css">
 </head>
 
-<body style="background-color:rgb(211,219,247);">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header"><a class="navbar-brand" href="#"><strong>Perfil paciente</strong></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+<body style="background-color: springgreen;">
+    <nav class="navbar navbar-default" style="border:green; border-radius:0; background-color:green">
+        <div class="container-fluid" style="border:green; border-radius:0; background-color:green">
+            <div class="navbar-header" style="border:green; border-radius:0; background-color:green;"><a class="navbar-brand" href="#"><strong style="color:white;font-weight:bold;">Perfil paciente</strong></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li role="presentation"><a href="verifica_consulta_paciente.php">Verificar Consulta</a></li>
-                    <li role="presentation"><a href="verifica_exame_paciente.php">Verficar Exame</a></li>
-                    <li role="presentation"><a href="logout.php">Sair</a></li>
+                    <li role="presentation"><a href="verifica_consulta_paciente.php" style="color:white; font-weight: bold;">Verificar Consulta</a></li>
+                    <li role="presentation"><a href="verifica_exame_paciente.php" style="color:white; font-weight: bold;">Verficar Exame</a></li>
+                    <li role="presentation"><a href="logout.php" style="color:white; font-weight: bold;">Sair</a></li>
                 </ul>
         </div>
         </div>
@@ -49,8 +49,8 @@ foreach($xml->children() as $sk) {
     <div class="features-boxed">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center">Paciente</h2>
-                <p class="text-center">Aqui estão algumas coisas que o paciente pode fazer.</p>
+                <h2 class="text-center"style="color:black">Paciente</h2>
+                <p class="text-center" style="color:black">Aqui estão algumas coisas que o paciente pode fazer.</p>
             </div>
             <div class="row features">
                 <div class="col-md-4 col-sm-6 item">

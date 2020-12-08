@@ -34,7 +34,7 @@ if(isset($_POST['login'])) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clinica BOOM</title>
+    <title>Clinica Monstrão</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Fern-Login-Form.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -42,16 +42,16 @@ if(isset($_POST['login'])) {
 
 <body style="width:100%;background-image:url(&quot;assets/img/medicofundo.jpg&quot;);background-position:center;background-size:cover;background-repeat:no-repeat;padding:0;min-height:100%;height:100vh;">
     <section id="med">
-        <nav class="navbar navbar">
+    <nav class="navbar navbar-default" style="border:green; border-radius:0; background-color:green">
             <div class="container-fluid">
-                <div class="navbar-header"><a class="navbar-brand" href="#">Clinica<strong> BOOM</strong></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+                <div class="navbar-header"><a class="navbar-brand" href="#"><strong style="color:white; font-weight: bold;"><i class="glyphicon glyphicon-plus"></i> Monstrão</strong></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
                 <div
                     class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav navbar-right" style="color:#000000;">
-                        <li role="presentation"><a href="index.php">Paciente</a></li>
-                        <li class="active" role="presentation"><a href="#">Medico</a></li>
-                        <li role="presentation"><a href="login_lab.php">Laboratorio</a></li>
-                        <li role="presentation"><a href="login_admin.php">Administrador</a></li>
+                        <li role="presentation" style="font-weight:bold;"><a style="color:white" href="index.php">Paciente</a></li>
+                        <li class="active" role="presentation" style="font-weight:bold;"><a style="color:black;" href="#">Medico</a></li>
+                        <li role="presentation" style="font-weight:bold;"><a style="color:white;" href="login_lab.php">Laboratorio</a></li>
+                        <li role="presentation" style="font-weight:bold;"><a style="color:white;" href="login_admin.php">Administrador</a></li>
                     </ul>
             </div>
             </div>
@@ -62,7 +62,7 @@ if(isset($_POST['login'])) {
 <div class="container">
     <div class="row">
         <div class="col-sm-6 col-md-4 col-md-offset-4">
-            <h3 class="text-center login-title">Entre com o CRM e sua senha</h3><br />
+            <h3 class="text-center login-title" style="color:black">Entre com o CRM e sua senha</h3><br />
             <div class="account-wall text-center">
                 <br/>
                 <center>
@@ -74,7 +74,7 @@ if(isset($_POST['login'])) {
                             <input type="submit" value="Entre" name="login" class="btn btn-lg btn-block" style="background-color: green; color: white; font-weight: bold;" />
                             <?php
                             if ($error) {
-                                echo '<p> Usuario ou senha invalida </p>' ; 
+                                echo "<p class='erro'> Usuario ou senha invalida </p>" ; 
                             }
                             ?>      
                         </form>

@@ -44,17 +44,17 @@ if(isset($_POST['alterar'])) {
     <link rel="stylesheet" href="assets/css/labstyles.css">
 </head>
 
-<body style="background-color:rgb(211,219,247);">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header"><a class="navbar-brand" href="home_lab.php"><strong>Perfil lab</strong></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+<body style="background-color:springgreen;">
+<nav class="navbar navbar-default" style="border:green; border-radius:0; background-color:green">
+        <div class="container-fluid" style="border:green; border-radius:0; background-color:green">
+            <div class="navbar-header" style="border:green; border-radius:0; background-color:green"><a class="navbar-brand" style="color:white; font-weight:bold;" href="home_lab.php"><strong>Perfil lab</strong></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li role="presentation"><a href="cadastro_exame.php">Adicionar Exame</a></li>
-                    <li role="presentation"><a href="verifica_exame.php">Verficar Exame</a></li>
-                    <li class="active" role="presentation"><a href="#">Editar Perfil</a></li>
-                    <li role="presentation"><a href="logout.php">Sair</a></li>
+                    <li role="presentation"><a style="color:white; font-weight:bold;" href="cadastro_exame.php">Adicionar Exame</a></li>
+                    <li role="presentation"><a style="color:white; font-weight:bold;" href="verifica_exame.php">Verficar Exame</a></li>
+                    <li class="active" role="presentation"><a style="color:black; font-weight:bold;" href="alterar_lab.php">Editar Perfil</a></li>
+                    <li role="presentation"><a style="color:white; font-weight:bold;" href="logout.php">Sair</a></li>
                 </ul>
         </div>
         </div>
@@ -105,7 +105,7 @@ if(isset($_POST['alterar'])) {
                 </div>
                 <br>
                 <p>Diga o novo valor da caixa marcada acima <input type="text" name="valor_novo" size="20" /></p> 
-                <input class="btn btn-default submit-button" type="submit" value="alterar" name='alterar' />
+                <input class="btn btn-default submit-button" style="background-color:green;" type="submit" value="alterar" name='alterar' />
                 <br>
                 <?php
                 if ($error) {

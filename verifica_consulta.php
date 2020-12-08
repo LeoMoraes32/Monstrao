@@ -38,17 +38,17 @@ if(isset($_POST['verifica'])) {
     <link rel="stylesheet" type="text/css" href="assets/css/estilotabela.css">
 </head>
 
-<body style="background-color:rgb(211,219,247);">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header"><a class="navbar-brand" href="home_medico.php"><strong>Perfil Medico</strong></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+<body style="background-color: springgreen;">
+    <nav class="navbar navbar-default" style="border:green; border-radius:0; background-color:green">
+        <div class="container-fluid" style="border:green; border-radius:0; background-color:green">
+            <div class="navbar-header" style="border:green; border-radius:0; background-color:green"><a class="navbar-brand" style="color:white; font-weight: bold;" href="home_medico.php"><strong>Perfil Medico</strong></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li role="presentation"><a href="cadastro_consulta.php">Adicionar Consulta</a></li>
-                    <li class="active" role="presentation"><a href="#">Verficar Consulta</a></li>
-                    <li role="presentation"><a href="alterar_medico.php">Editar Perfil</a></li>
-                    <li role="presentation"><a href="logout.php">Sair</a></li>
+                    <li role="presentation"><a style="color:white; font-weight: bold;"href="cadastro_consulta.php">Adicionar Consulta</a></li>
+                    <li class="active" role="presentation"><a style="color:black; font-weight: bold;" href="#">Verficar Consulta</a></li>
+                    <li role="presentation"><a style="color:white; font-weight: bold;" href="alterar_medico.php">Editar Perfil</a></li>
+                    <li role="presentation"><a style="color:white; font-weight: bold;" href="logout.php">Sair</a></li>
                 </ul>
         </div>
         </div>
@@ -62,7 +62,7 @@ if(isset($_POST['verifica'])) {
                     <div class="col-sm-6 input-column"><input class="form-control" name="cpf" size="20"></div>
                 </div>
                 
-                <input class="btn btn-default submit-button" type="submit" value="verifica" name="verifica"/>
+                <input class="btn btn-default submit-button" style="background-color:green;" type="submit" value="verifica" name="verifica"/>
             
                 <?php
                 if ($error) {
@@ -89,7 +89,7 @@ if(isset($_POST['verifica'])) {
 
             <p>Verificar cpf do paciente pelo nome</p>
 
-            <button class="btn btn-default submit-button" onclick="myFunction()">Aqui</button>
+            <button class="btn btn-default submit-button"style="background-color:green;" onclick="myFunction()">Aqui</button>
 
             <script>
             function myFunction() {

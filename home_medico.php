@@ -27,7 +27,7 @@ foreach($xml->children() as $sk) {
 
 <body style="background-color:	springgreen;">
     <nav class="navbar navbar-default" class="navbar navbar-default" style="border:green; border-radius:0; background-color:green">
-        <div class="container-fluid class=" style="border:green; border-radius:0; background-color:green">
+        <div class="container-fluid" style="border:green; border-radius:0; background-color:green">
             <div class="navbar-header" style="border:green; border-radius:0; background-color:green" ><a class="navbar-brand" style="color:white; font-weight: bold;" href="home_medico.php">Perfil Medico</a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
@@ -60,7 +60,7 @@ foreach($xml->children() as $sk) {
                 <div class="col-md-4 col-sm-6 item">
                     <div class="box"><i class="material-icons icon">list</i>
                         <h3 class="name">Verificar Consulta</h3>
-                        <p class="description">Aqui você pode verificar as consultas existentes de um certo paciente</p><a href="vefica_consulta.php" class="learn-more">Verificar consultas</a></div>
+                        <p class="description">Aqui você pode verificar as consultas existentes de um certo paciente</p><a href="verifica_consulta.php" class="learn-more">Verificar consultas</a></div>
                 </div>
                 <div class="col-md-4 col-sm-6 item">
                     <div class="box"><i class="material-icons icon">info_outline</i>

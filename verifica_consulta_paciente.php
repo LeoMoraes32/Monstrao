@@ -39,16 +39,16 @@ if(isset($_POST['verifica'])) {
     <link rel="stylesheet" href="assets/css/estilotabela.css">
 </head>
 
-<body style="background-color:rgb(211,219,247);">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header"><a class="navbar-brand" href="home_paciente.php"><strong>Perfil paciente</strong></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+<body style="background-color: springgreen;">
+    <nav class="navbar navbar-default" style="border:green; border-radius:0; background-color:green">
+        <div class="container-fluid" style="border:green; border-radius:0; background-color:green">
+            <div class="navbar-header" style="border:green; border-radius:0; background-color:green"><a class="navbar-brand" style="color:white; font-weight: bold;" href="home_paciente.php"><strong>Perfil paciente</strong></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active" role="presentation"><a href="#">Verificar Consulta</a></li>
-                    <li role="presentation"><a href="verifica_exame_paciente.php">Verficar Exame</a></li>
-                    <li role="presentation"><a href="logout.php">Sair</a></li>
+                    <li class="active" role="presentation"><a style="color:black; font-weight: bold;" href="#">Verificar Consulta</a></li>
+                    <li role="presentation" ><a  style="color:white; font-weight: bold;" href="verifica_exame_paciente.php">Verficar Exame</a></li>
+                    <li role="presentation" ><a style="color:white; font-weight: bold;" href="logout.php">Sair</a></li>
                 </ul>
         </div>
         </div>
@@ -60,7 +60,7 @@ if(isset($_POST['verifica'])) {
                 <div class="form-group">    
                     <div class="col-sm-4 label-column"><label class="control-label" for="name-input-field">CPF </label></div>
                     <div class="col-sm-6 input-column"><input class="form-control" name="cpfnovo" type="text"></div>
-                    <input class="btn btn-default submit-button" type="submit" value="verifica" name="verifica"/></form>    
+                    <input class="btn btn-default submit-button" style="background-color: green;" type="submit" value="verifica" name="verifica"/></form>    
                 </div>
                 
                 <?php

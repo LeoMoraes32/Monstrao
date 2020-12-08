@@ -98,17 +98,17 @@ if(isset($_POST['cadastrar'])) {
                     </script>
 </head>
 
-<body style="background-color:rgb(211,219,247);">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header"><a class="navbar-brand" href="home_admin.php"><strong>Perfil Admin</strong></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+<body style="background-color:springgreen">
+    <nav class="navbar navbar-default" style="border:green; border-radius:0; background-color:green">
+        <div class="container-fluid" style="border:green; border-radius:0; background-color:green">
+            <div class="navbar-header" style="border:green; border-radius:0; background-color:green"><a class="navbar-brand" href="home_admin.php"><strong style="color:white;font-weight:bold;">Perfil Admin</strong></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li role="presentation"><a href="cadastro_medico.php">Cadastrar Medico</a></li>
-                    <li class="active" role="presentation"><a href="#">Cadastrar Lab</a></li>
-                    <li role="presentation"><a href="cadastro_paciente.php">Cadastrar Paciente</a></li>
-                    <li role="presentation"><a href="logout.php">Sair</a></li>
+                    <li role="presentation"><a style="color:white;font-weight:bold;" href="cadastro_medico.php">Cadastrar Medico</a></li>
+                    <li class="active" role="presentation"><a style="color:black;font-weight:bold;"href="#">Cadastrar Lab</a></li>
+                    <li role="presentation"><a style="color:white;font-weight:bold;"href="cadastro_paciente.php">Cadastrar Paciente</a></li>
+                    <li role="presentation"><a style="color:white;font-weight:bold;"href="logout.php">Sair</a></li>
                 </ul>
         </div>
         </div>
@@ -145,7 +145,7 @@ if(isset($_POST['cadastrar'])) {
                     <div class="col-sm-4 label-column"><label class="control-label" for="repeat-pawssword-input-field">Tipo de Exame </label></div>
                     <div class="col-sm-6 input-column"><input class="form-control" type="number" name="tipoexame" size="20"></div>
                 </div>
-                <input class="btn btn-default submit-button" type="submit" value="cadastrar" name="cadastrar" onclick="return validar_form_contato()" />
+                <input class="btn btn-default submit-button" style="background-color:green;" type="submit" value="cadastrar" name="cadastrar" onclick="return validar_form_contato()" />
                 
                 <?php
                 if ($error) {

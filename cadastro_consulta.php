@@ -82,17 +82,17 @@ if(isset($_POST['cadastrar'])) {
             </script>
 </head>
 
-<body style="background-color:rgb(211,219,247);">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header"><a class="navbar-brand" href="home_medico.php"><strong>Perfil Medico</strong></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+<body style="background-color: springgreen">
+    <nav class="navbar navbar-default" style="border:green; border-radius:0; background-color:green">
+        <div class="container-fluid" style="border:green; border-radius:0; background-color:green">
+            <div class="navbar-header" style="border:green; border-radius:0; background-color:green"><a class="navbar-brand"  style="color:white; font-weight: bold;" href="home_medico.php"><strong>Perfil Medico</strong></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active" role="presentation"><a href="#">Adicionar Consulta</a></li>
-                    <li role="presentation"><a href="verifica_consulta.php">Verficar Consulta</a></li>
-                    <li role="presentation"><a href="alterar_medico.php">Editar Perfil</a></li>
-                    <li role="presentation"><a href="logout.php">Sair</a></li>
+                    <li class="active" role="presentation"><a  style="color:black; font-weight: bold;" href="#">Adicionar Consulta</a></li>
+                    <li role="presentation"><a  style="color:white; font-weight: bold;" href="verifica_consulta.php">Verficar Consulta</a></li>
+                    <li role="presentation"><a style="color:white; font-weight: bold;" href="alterar_medico.php">Editar Perfil</a></li>
+                    <li role="presentation"><a  style="color:white; font-weight: bold;" href="logout.php">Sair</a></li>
                 </ul>
         </div>
         </div>
@@ -117,7 +117,7 @@ if(isset($_POST['cadastrar'])) {
                     <div class="col-sm-4 label-column"><label class="control-label" for="repeat-pawssword-input-field">Observações </label></div>
                     <div class="col-sm-6 input-column"><input class="form-control" type="text" name="obs" size="100"></div>
                 </div>
-                <input class="btn btn-default submit-button" type="submit" value="cadastrar" name="cadastrar" onclick="return validar_form_contato()"/>
+            <input class="btn btn-default submit-button" style="background-color:green;" type="submit" value="cadastrar" name="cadastrar" onclick="return validar_form_contato()"/>
             
                 <?php
                 if ($error) {

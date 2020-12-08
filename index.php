@@ -73,7 +73,7 @@ if(isset($_POST['login'])) {
                     <div class="form-group"><input class="btn btn-block" style="background-color: green; color: white; font-weight: bold;" type="submit" value="Login" name="login"/></div>
                     <?php
                         if ($error) {
-                            echo '<p> Usuario ou senha invalida </p>' ; 
+                            echo "<p class='erro'> Usuario ou senha invalida </p>"; 
                         }
                     ?>
                 </div>
